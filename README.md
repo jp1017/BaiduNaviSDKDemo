@@ -6,8 +6,7 @@
 基本用法见 demo
 
 <img src="https://cloud.githubusercontent.com/assets/7868514/15351503/27de26bc-1d12-11e6-9697-9058afb00d40.png" width="320"/>
-<img src="https://cloud.githubusercontent.com/assets/7868514/15351502/27dcbf70-1d12-11e6-8d66-e9510df9f26f.png
-" width="320" />
+<img src="https://cloud.githubusercontent.com/assets/7868514/15351502/27dcbf70-1d12-11e6-8d66-e9510df9f26f.png" width="320"/>
 
 ## 自定义导航 View
 
