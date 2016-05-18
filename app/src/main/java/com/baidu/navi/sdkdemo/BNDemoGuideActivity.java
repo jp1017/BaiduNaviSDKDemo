@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.baidu.navi.shelldemo.R;
@@ -56,8 +57,11 @@ public class BNDemoGuideActivity extends Activity {
 		});
 		
 		if ( view != null ) {
-			setContentView(view);
-		}
+            setContentView(R.layout.activity_scrolling);
+
+            //把导航的 view 添加到自己布局里
+            addContentView(view, new ViewGroup.LayoutParams(1600, 1000));
+        }
 		
 		Intent intent = getIntent();
 		if (intent != null) {

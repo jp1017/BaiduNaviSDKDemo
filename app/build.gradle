@@ -1,13 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.baidu.navi.shelldemo"
         minSdkVersion 17
         targetSdkVersion 23
+        versionCode 4
+        versionName "3.0.1"
     }
 
     buildTypes {
